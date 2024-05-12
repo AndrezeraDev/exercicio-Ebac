@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(76, 211, 245), rgba(255,255,255,1)); /* Gradiente linear de transparente para opaco da esquerda para a direita */
+    background-repeat: no-repeat; /* Evita a repetição do gradiente */
+    background-size: cover; /* Garante que o gradiente cubra toda a tela */
+    height: 100vh; /* Defina a altura do corpo como 100% da altura da visualização */
+    display: flex; /* Ativa o modelo de layout flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+.container{
+    font-family: "Poetsen One", sans-serif;
+    background-color: rgb(173, 247, 179);
+    border-radius: 32px;
+    max-width: 300px; /* Defina o valor máximo de largura que você deseja para o contêiner */
+    padding: 32px; /* Adicione algum espaço ao redor do conteúdo */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    filter: drop-shadow(0 25px 20px #0009);
+}
+
+.container form{
+    padding: 32px;
+    display: flex; /* Ativa o modelo de layout flexível para os elementos do formulário */
+    flex-direction: column; /* Define a direção do fluxo como coluna */
+    align-items: center; /* Alinha os itens no centro horizontalmente */
+}
+
+.container form button{
+    border-radius: 5px;
+    background-color: rgb(97, 196, 121);
+    padding: 5px;
+    margin: 16px;
+    font-family: "Poetsen One", sans-serif;
+    cursor: pointer;
+}
+
+.container form input{
+    margin-bottom: 10px; /* Adiciona margem inferior para separar os elementos */
+    border-radius: 7px;
+}
